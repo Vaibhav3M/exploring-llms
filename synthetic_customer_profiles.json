@@ -1,188 +1,82 @@
 [
     {
-        "customer_id": 1,
-        "name": "Catherine Lee",
-        "email": "daniel.brown@example.com",
-        "age": 35,
-        "gender": "Male",
-        "location": "Houston, TX",
-        "purchase_history": [
-            {
-                "id": 101,
-                "name": "Wireless Mouse"
-            },
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            },
-            {
-                "id": 105,
-                "name": "Smartphone Case"
-            }
-        ],
-        "loyalty_status": "Platinum"
+        "first_name": "James",
+        "last_name": "Williams",
+        "age": 53,
+        "city": "New York",
+        "profession": "Salesperson",
+        "income": 75685.0
     },
     {
-        "customer_id": 2,
-        "name": "Ella White",
-        "email": "alice.johnson@example.com",
-        "age": 60,
-        "gender": "Male",
-        "location": "Los Angeles, CA",
-        "purchase_history": [
-            {
-                "id": 104,
-                "name": "Bluetooth Speaker"
-            },
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            },
-            {
-                "id": 101,
-                "name": "Wireless Mouse"
-            }
-        ],
-        "loyalty_status": "Gold"
+        "first_name": "John",
+        "last_name": "Williams",
+        "age": 28,
+        "city": "San Jose",
+        "profession": "Designer",
+        "income": 50884.41
     },
     {
-        "customer_id": 3,
-        "name": "Alice Johnson",
-        "email": "alice.johnson@example.com",
-        "age": 41,
-        "gender": "Female",
-        "location": "Phoenix, AZ",
-        "purchase_history": [
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            }
-        ],
-        "loyalty_status": "Platinum"
+        "first_name": "Chris",
+        "last_name": "Johnson",
+        "age": 56,
+        "city": "San Diego",
+        "profession": "Marketing Specialist",
+        "income": 51090.46
     },
     {
-        "customer_id": 4,
-        "name": "Bob Smith",
-        "email": "daniel.brown@example.com",
-        "age": 60,
-        "gender": "Male",
-        "location": "Phoenix, AZ",
-        "purchase_history": [
-            {
-                "id": 102,
-                "name": "Laptop Stand"
-            },
-            {
-                "id": 101,
-                "name": "Wireless Mouse"
-            },
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            }
-        ],
-        "loyalty_status": "Gold"
+        "first_name": "Chris",
+        "last_name": "Miller",
+        "age": 21,
+        "city": "Houston",
+        "profession": "Engineer",
+        "income": 46419.33
     },
     {
-        "customer_id": 5,
-        "name": "Ella White",
-        "email": "alice.johnson@example.com",
-        "age": 42,
-        "gender": "Female",
-        "location": "Houston, TX",
-        "purchase_history": [
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            }
-        ],
-        "loyalty_status": "Gold"
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "age": 56,
+        "city": "Phoenix",
+        "profession": "Artist",
+        "income": 110951.03
     },
     {
-        "customer_id": 6,
-        "name": "Catherine Lee",
-        "email": "alice.johnson@example.com",
-        "age": 50,
-        "gender": "Male",
-        "location": "Houston, TX",
-        "purchase_history": [
-            {
-                "id": 105,
-                "name": "Smartphone Case"
-            }
-        ],
-        "loyalty_status": "Silver"
+        "first_name": "Katie",
+        "last_name": "Miller",
+        "age": 44,
+        "city": "Dallas",
+        "profession": "Artist",
+        "income": 42417.16
     },
     {
-        "customer_id": 7,
-        "name": "Catherine Lee",
-        "email": "ella.white@example.com",
-        "age": 65,
-        "gender": "Male",
-        "location": "Chicago, IL",
-        "purchase_history": [
-            {
-                "id": 104,
-                "name": "Bluetooth Speaker"
-            }
-        ],
-        "loyalty_status": "Silver"
+        "first_name": "Jane",
+        "last_name": "Johnson",
+        "age": 54,
+        "city": "San Jose",
+        "profession": "Doctor",
+        "income": 48665.52
     },
     {
-        "customer_id": 8,
-        "name": "Catherine Lee",
-        "email": "ella.white@example.com",
-        "age": 49,
-        "gender": "Male",
-        "location": "Houston, TX",
-        "purchase_history": [
-            {
-                "id": 104,
-                "name": "Bluetooth Speaker"
-            },
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            }
-        ],
-        "loyalty_status": "Gold"
+        "first_name": "Katie",
+        "last_name": "Moore",
+        "age": 69,
+        "city": "San Jose",
+        "profession": "Designer",
+        "income": 49492.36
     },
     {
-        "customer_id": 9,
-        "name": "Catherine Lee",
-        "email": "daniel.brown@example.com",
-        "age": 58,
-        "gender": "Male",
-        "location": "New York, NY",
-        "purchase_history": [
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            },
-            {
-                "id": 104,
-                "name": "Bluetooth Speaker"
-            }
-        ],
-        "loyalty_status": "Silver"
+        "first_name": "Emily",
+        "last_name": "Smith",
+        "age": 68,
+        "city": "Philadelphia",
+        "profession": "Engineer",
+        "income": 90210.97
     },
     {
-        "customer_id": 10,
-        "name": "Alice Johnson",
-        "email": "alice.johnson@example.com",
-        "age": 37,
-        "gender": "Female",
-        "location": "Phoenix, AZ",
-        "purchase_history": [
-            {
-                "id": 105,
-                "name": "Smartphone Case"
-            },
-            {
-                "id": 103,
-                "name": "USB-C Charger"
-            }
-        ],
-        "loyalty_status": "Platinum"
+        "first_name": "Chris",
+        "last_name": "Brown",
+        "age": 31,
+        "city": "New York",
+        "profession": "Salesperson",
+        "income": 98744.63
     }
 ]
