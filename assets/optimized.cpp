@@ -1,11 +1,10 @@
-
 #include <iostream>
 #include <iomanip>
 #include <chrono>
 
-double calculate(long long iterations, double param1, double param2) {
+double calculate(int iterations, int param1, int param2) {
     double result = 1.0;
-    for (long long i = 1; i <= iterations; ++i) {
+    for (int i = 1; i <= iterations; ++i) {
         double j = i * param1 - param2;
         result -= (1.0 / j);
         j = i * param1 + param2;
@@ -16,15 +15,14 @@ double calculate(long long iterations, double param1, double param2) {
 
 int main() {
     auto start_time = std::chrono::high_resolution_clock::now();
-    
-    double result = calculate(100'000'000, 4.0, 1.0) * 4.0;
-
+    double result = calculate(100000000, 4, 1) * 4;
     auto end_time = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> elapsed = end_time - start_time;
 
     std::cout << std::fixed << std::setprecision(12);
-    std::cout << "Result: " << result << "\n";
-    std::cout << "Execution Time: " << elapsed.count() << " seconds\n";
-    
+    std::cout << "Result: " << result << std::endl;
+
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time);
+    std::cout << "Execution Time: " << duration.count() / 1000000.0 << " seconds" << std::endl;
+
     return 0;
 }
