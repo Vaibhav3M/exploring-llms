@@ -4,11 +4,13 @@ Welcome to the "Exploring Large Language Models" repository. This project is ded
 
 ## Repository Contents
 
-- **basic_model_setup.ipynb**: Guidelines for setting up and initializing LLMs.
-- **conversation_chatbots.ipynb**: Development of conversational chatbots using LLMs.
-- **learning_agents_1.ipynb**: Exploration of learning agents in the context of LLMs.
-- **multiple_bots_with_ui.ipynb**: Implementation of multiple chatbots with a Gradio user interface.
-- **ats_agent_1.ipynb**: Interface to extract relevant information from a job posting.
+- **basic_model_setup**: Guidelines for setting up and initializing LLMs.
+- **conversation_chatbots**: Development of conversational chatbots using LLMs.
+- **learning_agents_1**: Exploration of learning agents in the context of LLMs.
+- **multiple_bots_with_ui**: Implementation of multiple chatbots with a Gradio user interface.
+- **ats_agent_1**: Interface to extract relevant information from a job posting.
+- **synthetic_data_generator**: Configurable dataset generator.
+- **python_to_cpp_converter**: Convert python to cpp, execute code and compare execution time.
 
 ## Getting Started
 
